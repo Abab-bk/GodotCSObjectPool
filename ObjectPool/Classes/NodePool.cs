@@ -23,7 +23,7 @@ public partial class NodePool<TNode>(
     bool collectionCheck,
     int defaultCapacity,
     int maxCapacity
-    ) : Node, IObjectPool<TNode> where TNode : Node
+    ) : Node2D, IObjectPool<TNode> where TNode : Node
 {
     public int CountInactive { get; private set; }
     
